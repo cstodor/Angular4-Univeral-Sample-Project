@@ -2,7 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
-
+import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 // Modules
 import { AppRoutingModule } from './app-routing.module';
 
@@ -21,6 +21,7 @@ import { ContactComponent } from './contact/contact.component';
     BrowserModule.withServerTransition({appId: 'angular-universal'}),
     FormsModule,
     HttpModule,
+    BrowserAnimationsModule,
     AppRoutingModule
   ],
   providers: [],
