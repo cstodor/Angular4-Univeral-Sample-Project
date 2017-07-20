@@ -16,5 +16,9 @@
       "es2016",
       "dom"
     ]
+  },
+  "angularCompilerOptions": {
+    "genDir": "./dist/ngfactory", // generated ngFactory files for the components and modules
+    "entryModule": "./src/app/app.module#AppModule" // path to main bootstrapped module
   }
 }
